@@ -29,8 +29,6 @@ namespace DreamofSomeone.Game
         private void load()
         {
             Resources.AddStore(new DllResourceStore(typeof(DreamofSomeoneResources).Assembly));
-            Resources.AddStore(new DllResourceStore(@"DreamofSomeone.dll"));
-            AddFont(Resources, @"Resources\Fonts\210omnigulim010");
         }
     }
 }

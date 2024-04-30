@@ -23,10 +23,10 @@ namespace DreamofSomeone.Game
                 new SpriteText
                 {
                     Y = 20,
-                    Text = new LocalisableString("???의 꿈"),
+                    Text = new LocalisableString("???'의 꿈"),
                     Anchor = Anchor.TopCentre,
                     Origin = Anchor.TopCentre,
-                    Font = new FontUsage("옴니고딕 010", 20F, null, false)
+                    Font = new FontUsage(@"Roboto-Regular", 20F, null, false)
                 }
             };
         }

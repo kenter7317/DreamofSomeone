@@ -15,7 +15,7 @@
     <EmbeddedResource Include="game.ico" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Fonts\**\*" />
+    <EmbeddedResource Include="..\DreamofSomeone.Resources\Fonts\**\*" />
     <EmbeddedResource Include="Samples\**\*" />
     <EmbeddedResource Include="Textures\**\*" />
     <EmbeddedResource Include="Tracks\**\*" />
