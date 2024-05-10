@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\nlead\.nuget\packages\ppy.osu.framework\2024.423.0\lib\net8.0\osu.Framework.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\해마슈 팬게임\DreamofSomeone\DreamofSomeone.Game\bin\Debug\net8.0\DreamofSomeone.Game.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e026fc3d_002De54e_002D428d_002D801a_002D3d01d7bf1d5a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestSceneMainScreen" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0A9CA1A5-5147-4AA8-9B9D-87178DE5A78D::net8.0::DreamofSomeone.Game.Tests.Visual.TestSceneMainScreen&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

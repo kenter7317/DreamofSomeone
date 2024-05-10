@@ -1,0 +1,11 @@
+﻿{
+  "solution": {
+    "path": "DreamofSomeone.sln",
+    "projects": [
+      "DreamofSomeone.Desktop\\DreamofSomeone.Desktop.csproj",
+      "DreamofSomeone.Game\\DreamofSomeone.Game.csproj",
+      "DreamofSomeone.Game.Tests\\DreamofSomeone.Game.Tests.csproj",
+      "DreamofSomeone.Resources\\DreamofSomeone.Resources.csproj"
+    ]
+  }
+}

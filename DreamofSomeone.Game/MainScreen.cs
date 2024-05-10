@@ -1,10 +1,9 @@
 using osu.Framework.Allocation;
 using osu.Framework.Graphics;
-using osu.Framework.Graphics.Shapes;
-using osu.Framework.Graphics.Sprites;
-using osu.Framework.Localisation;
+using osu.Framework.Graphics.Cursor;
+using osu.Framework.Graphics.UserInterface;
+
 using osu.Framework.Screens;
-using osuTK.Graphics;
 
 namespace DreamofSomeone.Game
 {
@@ -13,22 +12,23 @@ namespace DreamofSomeone.Game
         [BackgroundDependencyLoader]
         private void load()
         {
-            InternalChildren = new Drawable[]
-            {
-                new Box
+            AddInternal(new BasicContextMenuContainer()
                 {
-                    Colour = Color4.Black,
-                    RelativeSizeAxes = Axes.Both,
-                },
-                new SpriteText
-                {
-                    Y = 20,
-                    Text = new LocalisableString("???'의 꿈"),
-                    Anchor = Anchor.TopCentre,
+                    Anchor = Anchor.Centre,
                     Origin = Anchor.TopCentre,
-                    Font = new FontUsage(@"Roboto-Regular", 20F, null, false)
+                    Children = new Drawable[]
+                    {
+                        new BasicMenu.BasicDrawableMenuItem(
+                            new MenuItem("게임 시작", Start_Game))
+                    }
                 }
-            };
+            );
+
+        }
+
+        private void Start_Game()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

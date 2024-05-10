@@ -16,7 +16,7 @@ namespace DreamofSomeone.Game
             // A screen stack and sample screen has been provided for convenience, but you can replace it if you don't want to use screens.
             Child = screenStack = new ScreenStack { RelativeSizeAxes = Axes.Both };
             Resources.AddStore(new DllResourceStore(@"DreamofSomeone.dll"));
-            AddFont(Resources, @"Resources/Fonts/210omnigulim010/210omnigulim010");
+            AddFont(Resources, @"Fonts/_210omnigulim010/210omnigulim010");
         }
 
         protected override void LoadComplete()
